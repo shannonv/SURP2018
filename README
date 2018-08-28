@@ -1,0 +1,12 @@
+
+##---------------------------------------------------------------------------------##
+# Python scripts for modeling polarization and Faraday rotation for a galaxy,	    #
+# with external observer.							    # 
+#										    #
+# by Shannon Vanderwoude							    #
+##---------------------------------------------------------------------------------##
+
+
+model_rotate ... Changes LOS of the observer.
+model_galaxy ... Outputs .dat file with Stokes I, Q, U and errors to make Faraday spectra.
+		 Built for use with C. Purcell's RMtools package.
