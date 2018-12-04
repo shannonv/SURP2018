@@ -11,6 +11,7 @@ import astropy.io.fits as ast
 
 
 ## Reads in magnetic field file
+## This piece of program thanks to C. Purcell's RMtools package.
 def read_box(infile,inshape,dtype="float32"):
     with open(infile,'rb') as f:
         #  C floats of 4 bytes aren't python floats which are really
